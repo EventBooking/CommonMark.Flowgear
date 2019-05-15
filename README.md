@@ -1,10 +1,12 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/9jo20450utqy1p0o/branch/master?svg=true)](https://ci.appveyor.com/project/Knagis/commonmark-net/branch/master)
-
 # CommonMark.NET
 
 Implementation of [CommonMark][1] specification (passes tests from version 0.27) in C# for converting Markdown documents to HTML.
 
 The current version of the library is also [available on NuGet][nuget].
+
+## This fork of the repo
+
+This fork builds a [Flowgear][fg] node to allow easy conversion of Markdown to HTML within a Flowgear workflow.
 
 ## Usage
 
@@ -99,3 +101,4 @@ application can correctly handle input from the Perl script.
 [extensibility]: https://github.com/Knagis/CommonMark.NET/wiki
 [XSS]: http://talk.commonmark.org/t/cross-site-scripting-issue-in-standard-markdown-example-at-try-standardmarkdown-com/55
 [nuget]: https://www.nuget.org/packages/CommonMark.NET/
+[fg]: https://my.flowgear.net
